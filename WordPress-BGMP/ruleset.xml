@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ruleset name="WordPress-BGMP">
+    <description>Coding standard based on WordPress-Core, with minor changes.</description>
+
+    <!-- Include the WordPress Core standard. -->
+    <rule ref="WordPress-Core">
+        <!-- Exclude the sniff that enforces long array syntax. -->
+        <exclude name="Generic.Arrays.DisallowShortArraySyntax"/>
+	    <!-- Don't enforce WordPress filenames. -->
+        <exclude name="WordPress.Files.FileName" />
+        <!-- Don't enforce WordPress.WP.I18n.NonSingularStringLiteralText -->
+        <!-- <exclude name="WordPress.WP.I18n.NonSingularStringLiteralText" /> -->
+    </rule>
+</ruleset>
