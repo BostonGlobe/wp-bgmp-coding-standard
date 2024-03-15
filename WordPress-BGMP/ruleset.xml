@@ -5,7 +5,7 @@
     <!-- Include the WordPress Core standard. -->
     <rule ref="WordPress-Core">
         <!-- Exclude the sniff that enforces long array syntax. -->
-        <exclude name="Generic.Arrays.DisallowShortArraySyntax"/>
+        <exclude name="Univeral.Arrays.DisallowShortArraySyntax"/>
 	    <!-- Don't enforce WordPress filenames. -->
         <exclude name="WordPress.Files.FileName" />
         <!-- Don't enforce WordPress.WP.I18n.NonSingularStringLiteralText -->
